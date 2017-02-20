@@ -1,2 +1,2 @@
 # solutions
-Solutions for feew questions at https://github.com/karan/Projects
+Solutions for few questions at https://github.com/karan/Projects
