@@ -1,0 +1,6 @@
+You can find the password of the next level by opening the readme file present in the home directory.
+You need to enter "cat readme"
+You will get your password as "boJ9jbbUNNfktd78OOpsqOltutMc3MY1"
+
+For entering the next level you just need to write "ssh bandit1@bandit.labs.overthewire.org -p 2220" in terminal and enter the password mentioned above when asked.
+This will take you to level 1.
