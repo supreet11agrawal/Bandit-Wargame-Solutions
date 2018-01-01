@@ -1,0 +1,12 @@
+This one is slightly complicated.
+Firstly we need to go inside the "inhere" directory.
+This wil be done by typing "cd inhere".
+If you type ls here, you'll see that there are 20 directories here. So finding the file manually will be quite difficult.
+Thats why we use "find" command here.
+The required file has 3 characteristics-
+  1. Human-readable
+  2. 1033 bytes in size
+  3. Not executable
+1st point is a little bit vague. Because it's not mentioned what kind of Human Readable.So we'll keep our focus on later 2 points.
+To find a file on this basis this code should be written "find . -size 1033c ! -executable"
+This will give you the exact location of the file which is "maybehere07/.file2"
