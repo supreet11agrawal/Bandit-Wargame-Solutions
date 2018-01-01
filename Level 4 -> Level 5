@@ -1,0 +1,7 @@
+This level says that the password for the next level is stored in the only human-readable file in the "inhere" directory.
+To enter the "inhere" directory, you need to enter the command "cd inhere".
+Upon entering the directory check the files present there by entering the command "ls".
+Upon entering the command you will see that there are 10 files present (-file00 -file01 -file02 -file03 -file04 -file05 -file06 -file07 -file08 -file09)
+To see the file types enter the command "file -file00 -file01 -file02 -file03 -file04 -fil05 -file06 -file07 -file08 -file08"
+Did it work?
+NO
