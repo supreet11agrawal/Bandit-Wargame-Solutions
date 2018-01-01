@@ -2,4 +2,5 @@ In this level we have to retrieve the password for the next level through a file
 We can't use "cat -" command to open this file.
 Here we need to use "cat ./-" to open this file and retrieve the password.
 You will get the password of next level as "CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9"
-To open the next level one need to enter the command "ssh bandit2@bandit.labs.overthewire.org -p 2220" and enter the password given above when asked.
+To open the next level one need to enter the command "ssh bandit2@bandit.labs.overthewire.org -p 2220" in the terminal and enter the password given above when asked.
+This will take you to Level 2.
