@@ -1,0 +1,9 @@
+In this level the password is written in a hidden file in the "inhere" directory.
+First, you need to enter the "inhere" directory by typing "cd inhere".
+In this directory if you enter "ls" command no files or directories will be shown because the file is hidden.
+To see the hidden files you need to type "ls .?*"
+This will tell you that a file named ".hidden" is present
+You can check the format of the file by typing "file .hidden" upon which you'll see that it is an ASCII text file.
+You can open this file by typing "cat .hidden" upon which you'll find the password for the next Level.
+The password will be "pIwrPrtPN36QITSp3EQaw936yaFoFgAB".
+For entering Level 4 you need to write "ssh bandit4@bandit.labs.overthewire.org -p 2220" in the terminal and also type the above password when asked.
