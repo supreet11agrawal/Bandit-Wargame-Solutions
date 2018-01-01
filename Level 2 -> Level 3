@@ -1,0 +1,6 @@
+In this level you need you need to find the password from a ASCII text file named "spaces in this filename".
+Here also you can't just enter the command "cat spaces in this filename". It will show an error saying no file named spaces and so on.
+Here the correct method is to write "cat spaces\ in\ this\ filename".
+This will open the file and you will be able to get the password for the next level.
+The password is "UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK"
+Write "ssh bandit3@bandit.labs.overthewire.org -p 2220" and the retrieved password in the terminal to enter Level 3.
