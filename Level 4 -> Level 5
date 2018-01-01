@@ -4,4 +4,26 @@ Upon entering the directory check the files present there by entering the comman
 Upon entering the command you will see that there are 10 files present (-file00 -file01 -file02 -file03 -file04 -file05 -file06 -file07 -file08 -file09)
 To see the file types enter the command "file -file00 -file01 -file02 -file03 -file04 -fil05 -file06 -file07 -file08 -file08"
 Did it work?
-NO
+I am sure that the answer is NO!
+Why?
+Because the names of the files start with "-"
+Hence we need to alter the code a little bit.
+"file ./-file00 ./-file01 ./-file02 ./-file03 ./-file04 ./-fil05 ./-file06 ./-file07 ./-file08 ./-file08" is what we need to write.
+
+"./-file00: data
+./-file01: data
+./-file02: data
+./-file03: data
+./-file04: data
+./-file05: data
+./-file06: data
+./-file07: ASCII text
+./-file08: data
+./-file09: data"
+
+This is what you'll see as an output.
+Obviously, -file07 is the only "Human-Readable file".
+So the required password must be in the -file07
+Now open this file by entering the command "cat ./-file.07"
+You'll see the password as "koReBOKuIDDepwhWk7jZC0RTdopnAYKh"
+This can be used to enter Level 5. You just need to enter the command "ssh bandit5@bandit.labs.overthewire.org -p 2220" and this password.
