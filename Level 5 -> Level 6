@@ -10,3 +10,15 @@ The required file has 3 characteristics-
 1st point is a little bit vague. Because it's not mentioned what kind of Human Readable.So we'll keep our focus on later 2 points.
 To find a file on this basis this code should be written "find . -size 1033c ! -executable"
 This will give you the exact location of the file which is "maybehere07/.file2"
+So change the directory to maybehere07 through "cd maybehere07" command.
+If you write "ls" command you won't be able to see any file named ".file2"
+Why?
+Because it might be hidden.
+So we see the hidden files by the command "ls .?*"
+You will see that there are 3 hidden files present named ".file1 , .file2 , .file3"
+.file2 is our required file.
+Open it by "cat ./.file2" command.
+You will see the password for next level there.
+Password is "DXjZPULLxYr17uwoI01bNLQbtFemEgo7"
+Enter the command "ssh bandit6@bandit.labs.overthewire.org -p 2220" to enter 6th level.
+Enter the above password when asked to do so.
